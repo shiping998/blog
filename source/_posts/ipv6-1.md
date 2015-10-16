@@ -7,7 +7,7 @@ tags: [shadowsocks,ipv6]
 ## 基本思路
 基本思路就是利用在服务器上搭建shadowsocks，本地填入服务器的ipv6地址，从而使得上网的流量全部走ipv6，来免流量上网。而国内的VPS基本没有ipv6，所以只能拿境外的服务器做代理，顺便有了一个*番羽墙*特效。
 ## 注册Digitalocean
-对于学生来说，为了节省费用，建议先认证github education，可以得到digitalocean的100美金优惠券。digitalocean最便宜的是5美元的一个月，自己只要花5美元就能激活账户，加上github送的100美金，差不多可以用两年。进入我的[推广链接注册](www.digitalocean.com/?refcode=c7f58a8dc827)的话，可以多获得10美元的优惠券。
+对于学生来说，为了节省费用，建议先认证github education，可以得到digitalocean的100美金优惠券。digitalocean最便宜的是5美元的一个月，自己只要花5美元就能激活账户，加上github送的100美金，差不多可以用两年。进入我的[推广链接注册](https://www.digitalocean.com/?refcode=c7f58a8dc827)的话，可以多获得10美元的优惠券。
 
 认证github education的方法请参考[学生免费享受 GitHub 提供的开发包](http://www.caoqq.net/github-pack.html)。
 ## 安装shadowsocks
@@ -71,14 +71,18 @@ ip地址： 2605:f700:40:c00::bc0c:a251
 使用方法可以参考我前面的博客[科学上网新方法（附帐号）](http://linjiangxian998.com/2014/11/29/six/)
 
 ## 傻瓜式方法
-上面的方法就是手工搭建免流量上网的过程，如果你还是觉得太麻烦，其实有一个偷懒的办法。就是直接买可以提供ipv6的shadowsocks账号。省去了搭建和优化的麻烦。我简单在谷歌上搜索了一下，找了个四个看起来满足条件，价格又不算贵的ss服务商。
+上面的方法就是手工搭建免流量上网的过程，如果你还是觉得太麻烦，其实有一个偷懒的办法。就是直接买可以提供ipv6的shadowsocks账号。省去了搭建和优化的麻烦。我简单在谷歌上搜索了一下，找了个五个看起来满足条件，价格又不算贵的ss服务商。
 
 [枫叶主机](http://www.fyzhuji.com/aff.php?aff=1438)
 
+[校园v6](http://xyv6.com/)
+
+
 [ShadowSU](http://www.shadowsu.com/shadowsocks.html)
 
-[SSX Shadowsocks](https://www.youss.org/)
+[SSCC加速器](http://www.ssccsu.com/)
+
 
 [SHADOWSS](http://www.shadowss.net/)
 
-其中我买过枫叶主机的shadowsocks，我买的是中级套餐，当时是80元一年，一个月60G，有ipv6节点。现在涨价了变成了120一年。其他三家我也没买过，仅供参考。
+其中我买过枫叶主机的shadowsocks，我买的是中级套餐，当时是80元一年，一个月60G，有ipv6节点。现在涨价了变成了120一年。其他几家我也没买过，仅供参考。其中校园v6免费用户可以每个月免费使用3G流量，这个其他没有。
